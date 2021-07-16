@@ -18,6 +18,20 @@
 10 * 2  # => 20
 35 / 5  # => 7.0
 
+# Integer division rounds down for both positive and negative numbers.
+5 // 3       # => 1
+-5 // 3      # => -2
+5.0 // 3.0   # => 1.0 # works on floats too
+-5.0 // 3.0  # => -2.0
+
+# The result of division is always a float
+10.0 / 3  # => 3.3333333333333335
+
+# Modulo operation
+7 % 3   # => 1
+# i % j have the same sign as j, unlike C
+-7 % 3  # => 2
+
 # Exponentiation (x**y, x to the yth power)
 2**3  # => 8
 
