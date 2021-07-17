@@ -1,5 +1,3 @@
-# Note taken from https://cht.sh/python/:learn
-
 # Single line comments start with a number symbol.
 
 """ Multiline strings can be written
