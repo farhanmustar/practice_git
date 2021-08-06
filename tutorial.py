@@ -90,3 +90,24 @@ b == a            # => True, a's and b's objects are equal
 b = [1, 2, 3, 4]  # Point b at a new list, [1, 2, 3, 4]
 b is a            # => False, a and b do not refer to the same object
 b == a            # => True, a's and b's objects are equal
+
+# Strings are created with " or '
+"This is a string."
+'This is also a string.'
+
+# Strings can be added too
+"Hello " + "world!"  # => "Hello world!"
+# String literals (but not variables) can be concatenated without using '+'
+"Hello " "world!"    # => "Hello world!"
+
+# A string can be treated like a list of characters
+"Hello world!"[0]  # => 'H'
+
+# You can find the length of a string
+len("This is a string")  # => 16
+
+# You can also format using f-strings or formatted string literals (in Python 3.6+)
+name = "Reiko"
+f"She said her name is {name}." # => "She said her name is Reiko"
+# You can basically put any Python expression inside the braces and it will be output in the string.
+f"{name} is {len(name)} characters long." # => "Reiko is 5 characters long."
