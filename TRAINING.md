@@ -52,6 +52,10 @@
   * git branch
   * git tag
 
+## git config file
+* show how to config (.gitconfig)
+* show .gitignore
+
 ## git log graph
 * Can visual using git log.
   * `git log --oneline --graph --all`
