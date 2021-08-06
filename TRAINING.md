@@ -4,10 +4,17 @@
 * git branch
 * git tags
 
+* git config
+
 * git graph (git log)
 * git status
 * git diff
 * git stash
+
+* git reset
+* git checkout
+* git rebase
+* git mergetool
 
 * git mv
 * git rm
