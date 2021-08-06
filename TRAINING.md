@@ -86,3 +86,63 @@
   * how to create key. add key to pageant shortcut.
   * how to get public key. setup on gitlab/github. (github push ssh only)
   * how to setup putty and check remote connected to ssh agent.
+
+<!-- CONTENT -->
+# Git Workflow in Vim
+## Vundle config
+* .vimrc (vundle to inclue).
+  * fugive
+  * gv
+
+  * gitgutter -> optional (I not use) to display changes in side column
+
+## GV command
+* Open graph
+* Open changeset
+* checkout using dot to run command
+* r for refresh
+* GV again to refresh and to open in same tab.
+
+## G command to manage commit
+* Stage changes
+  * partial stage
+* unstage changes
+  * edit line for changes only
+* delete changes (-x)
+* commit using cc
+
+## :G command line push pull 
+* Gpush
+* Gpull
+* checkout
+* reset
+* rebase
+* new branch
+
+## vim :Gvdiffsplit
+* Compare with previous commit
+
+## vim :Gedit
+* Edit file from diff branch
+* Edit using explorer mode to list all in file.
+
+## vim Gvdiffsplit
+* edit compare in vertical split
+
+<!-- CLOSING -->
+## merge demo
+* demo on merge and solve conflict if any.
+
+## rebase demo
+* solve conflict
+
+## rebase interactive demo
+* squash, rearrange, fixup
+
+## Ggrep command
+* find anything within the git repository.
+* Grep find with options
+* Ggrep shortcut
+
+## git blame
+* identify last commit
